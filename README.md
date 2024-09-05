@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @Jahangirhussen, a passionate problem solver from Bangladesh.
+- 👀 I’m deeply interested in cracking tough algorithms, competitive programming, and exploring the depths of software engineering.
+- 🌱 Currently, I’m recharging my skills in machine learning and deep learning, while also diving into advanced algorithms and mastering data structures for future projects.
+- 💞️ I’m excited to collaborate on coding contests, open-source projects, and anything that pushes the boundaries of problem-solving.
+- 📫 Reach me at jahangirhussen@gmail.com or on WhatsApp at +8801849620018. Connect with me on Codeforces: @Jahangirhussen5011.
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I thrive on challenges, and ICPC is my next big goal! I also love optimizing code just for fun.
