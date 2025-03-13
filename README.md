@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/jahangirkawsar" target="blank"><img src="https://img.shields.io/twitter/follow/jahangirkawsar?logo=twitter&style=for-the-badge" alt="jahangirkawsar" /></a> </p>
 
-- 🌱 I’m currently learning **🌱 I’m constantly learning and exploring more in Machine Learning, Data Science, and Competitive Programming (LeetCode, Codeforces, CodeChef).**
+- 🌱 I’m constantly learning and exploring more in Machine Learning, Data Science, and Competitive Programming (LeetCode, Codeforces, CodeChef).
 
 - 👨‍💻 All of my projects are available at [https://www.kaggle.com/jahangirhussen](https://www.kaggle.com/jahangirhussen)
 
@@ -15,7 +15,7 @@
 
 - 💬 Ask me about **anything**
 
-- 📫 How to reach me **jahangirhussen06@gmail.com**
+- 📫 How to reach me: **jahangirhussen06@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
