@@ -24,7 +24,7 @@ Dhaka, Bangladesh
 
 ────────────────────────────────────────────
 
-<sub>01 PROFILE&nbsp;&nbsp;&nbsp;&nbsp;02 RESEARCH&nbsp;&nbsp;&nbsp;&nbsp;03 PUBLICATIONS&nbsp;&nbsp;&nbsp;&nbsp;04 PROJECTS&nbsp;&nbsp;&nbsp;&nbsp;05 SKILLS&nbsp;&nbsp;&nbsp;&nbsp;06 GITHUB&nbsp;&nbsp;&nbsp;&nbsp;07 COMPETITIVE&nbsp;&nbsp;&nbsp;&nbsp;08 CONTACT</sub>
+<sub>01 PROFILE&nbsp;&nbsp;&nbsp;&nbsp;02 EXPERIENCE&nbsp;&nbsp;&nbsp;&nbsp;03 RESEARCH&nbsp;&nbsp;&nbsp;&nbsp;04 PUBLICATIONS&nbsp;&nbsp;&nbsp;&nbsp;05 PROJECTS&nbsp;&nbsp;&nbsp;&nbsp;06 SKILLS&nbsp;&nbsp;&nbsp;&nbsp;07 GITHUB&nbsp;&nbsp;&nbsp;&nbsp;08 COMPETITIVE&nbsp;&nbsp;&nbsp;&nbsp;09 CONTACT</sub>
 
 ────────────────────────────────────────────
 
@@ -53,7 +53,39 @@ Research interests span Machine Learning, Deep Learning, Quantum Machine Learnin
 
 <br/>
 
-### 02 — RESEARCH
+### 02 — EXPERIENCE
+
+**HeatCoreX** — Online Operations Manager <br/>
+<sub>UK Heating & Plumbing Services · Part-time · Remote · Since 2024</sub>
+
+- Lead and coordinate online operations and digital team workflows
+- Oversee SEO, social media, content, and graphic design activities
+- Coordinate daily tasks, priorities, and team execution
+- Manage website operations, maintenance, and issue resolution
+- Monitor and maintain the company's overall digital presence
+
+[jahangirhussen@heatcorex.co.uk](mailto:jahangirhussen@heatcorex.co.uk) &nbsp;·&nbsp; [heatcorex.co.uk ↗](https://heatcorex.co.uk)
+
+<br/>
+
+**Real Deal IT Center** — Lead Developer <br/>
+<sub>IT & Digital Services · On-site · Since December 2024</sub>
+
+- Lead web development and technical projects
+- Build and maintain WordPress, Shopify, and e-commerce solutions
+- Handle website development, optimization, and technical maintenance
+- Coordinate development workflows and project delivery
+- Implement and maintain modern web-based solutions
+
+[jahangirhussen@realdealitcenter.com](mailto:jahangirhussen@realdealitcenter.com) &nbsp;·&nbsp; [realdealitcenter.com ↗](https://realdealitcenter.com)
+
+<br/><br/>
+
+────────────────────────────────────────────
+
+<br/>
+
+### 03 — RESEARCH
 
 <sub>LIVE DATA — SOURCED DIRECTLY FROM ORCID, GOOGLE SCHOLAR, SCOPUS & RESEARCHGATE. NO HARDCODED FIGURES.</sub>
 
@@ -99,7 +131,7 @@ Research interests span Machine Learning, Deep Learning, Quantum Machine Learnin
 
 <br/>
 
-### 04 — PROJECTS
+### 05 — PROJECTS
 
 | Project | Stack | Type |
 |---|---|---|
@@ -118,7 +150,7 @@ Research interests span Machine Learning, Deep Learning, Quantum Machine Learnin
 
 <br/>
 
-### 05 — SKILLS
+### 06 — SKILLS
 
 | | |
 |---|---|
@@ -137,7 +169,7 @@ Research interests span Machine Learning, Deep Learning, Quantum Machine Learnin
 
 <br/>
 
-### 06 — GITHUB
+### 07 — GITHUB
 
 <div align="center">
 
@@ -160,7 +192,7 @@ Research interests span Machine Learning, Deep Learning, Quantum Machine Learnin
 
 <br/>
 
-### 07 — COMPETITIVE PROGRAMMING
+### 08 — COMPETITIVE PROGRAMMING
 
 <sub>LIVE — SOURCED FROM OFFICIAL CODEFORCES API AND LEETCODE.</sub>
 
@@ -180,7 +212,7 @@ Research interests span Machine Learning, Deep Learning, Quantum Machine Learnin
 
 <br/>
 
-### 08 — CONTACT
+### 09 — CONTACT
 
 [jahangirhussen.programmer@gmail.com](mailto:jahangirhussen.programmer@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/jahangir-hussen-9204b8234) &nbsp;·&nbsp; [GitHub](https://github.com/jahangirhussen) &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/jahangirhussen) &nbsp;·&nbsp; [ORCID](https://orcid.org/0009-0007-1024-6644)
 
