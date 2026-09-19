@@ -91,6 +91,50 @@ async function updateLeetCode() {
   }
 }
 
+// DOIs for every published work — used to pull live citation counts from Crossref
+// (free, no key, no auth). Works without a DOI (e.g. university-journal PDFs without
+// one) are simply skipped rather than guessed at.
+const PUBLICATION_DOIS = [
+  "10.65136/jati.v10i1.11",
+  "10.65136/jati.v10i1.325",
+  "10.4018/979-8-3373-7694-3.ch003",
+  "10.14445/23488387/ijcse-v11i10p104",
+];
+
+function doiToFilename(doi) {
+  return "cite-" + doi.replace(/[^a-zA-Z0-9]/g, "-") + ".json";
+}
+
+async function updateCitations() {
+  const file = "citations.json";
+  const perDoi = {};
+  let total = 0;
+  let anyFailed = false;
+  for (const doi of PUBLICATION_DOIS) {
+    const rowFile = doiToFilename(doi);
+    try {
+      const data = await safeFetchJson(`https://api.crossref.org/works/${encodeURIComponent(doi)}`);
+      const count = data.message["is-referenced-by-count"] ?? 0;
+      perDoi[doi] = count;
+      total += count;
+      writeBadge(rowFile, "cited by", count, count > 0 ? "6a11cb" : "lightgrey");
+    } catch (err) {
+      console.error(`Crossref fetch failed for ${doi}:`, err.message);
+      anyFailed = true;
+      const prev = readPrevious(rowFile);
+      writeBadge(rowFile, "cited by", prev ? `${prev.message} (stale)` : "n/a", "lightgrey");
+    }
+  }
+  fs.writeFileSync(path.join(BADGES_DIR, "citations-per-doi.json"), JSON.stringify(perDoi, null, 2) + "\n");
+  if (anyFailed) {
+    const prev = readPrevious(file);
+    writeBadge(file, "Total Citations", prev ? `${prev.message} (stale)` : "unavailable", "lightgrey");
+  } else {
+    writeBadge(file, "Total Citations", total, "6a11cb");
+  }
+  return perDoi;
+}
+
 async function updateGitHub() {
   const file = "github-repos.json";
   try {
@@ -113,6 +157,7 @@ async function updateGitHub() {
   await updateCodeforces();
   await updateLeetCode();
   await updateGitHub();
+  await updateCitations();
 
   const timestamp = new Date().toISOString();
   fs.writeFileSync(
