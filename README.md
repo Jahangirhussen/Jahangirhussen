@@ -2,6 +2,10 @@
 
 <br/>
 
+<img src="https://github.com/jahangirhussen.png" width="120" height="120" style="border-radius:50%;" alt="Jahangir Hussen"/>
+
+<br/><br/>
+
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=30&duration=3200&pause=1100&color=58A6FF&background=00000000&center=true&vCenter=true&width=700&lines=JAHANGIR+HUSSEN" alt="name"/>
 
 <sub>AI&nbsp;/&nbsp;ML&nbsp;/&nbsp;NLP&nbsp;RESEARCHER&nbsp;&nbsp;·&nbsp;&nbsp;SOFTWARE&nbsp;DEVELOPER&nbsp;&nbsp;·&nbsp;&nbsp;DATA&nbsp;SCIENCE&nbsp;ENTHUSIAST</sub>
@@ -123,7 +127,6 @@ Motivated fresh BSc graduate in Computer Science &amp; Engineering with strong e
 
 <div align="center">
 <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/orcid-works.json&style=flat-square&label=ORCID%20WORKS&color=58A6FF&labelColor=161B22" />
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/citations.json&style=flat-square&label=TOTAL%20CITATIONS&color=58A6FF&labelColor=161B22" />
 </div>
 
 <br/>
@@ -201,9 +204,11 @@ Motivated fresh BSc graduate in Computer Science &amp; Engineering with strong e
 <br/>
 
 <div align="center">
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=jahangirhussen&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&border_color=30363D&count_private=true&include_all_commits=true" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jahangirhussen&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&border_color=30363D" />
+<img width="49%" src="https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/github-languages.png" alt="repository languages" />
+<img width="49%" src="https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/leetcode-difficulty.png" alt="leetcode difficulty breakdown" />
 </div>
+
+<sub>Charts above are self-rendered via QuickChart from live GitHub/LeetCode API data and re-committed daily — not dependent on third-party stat-card mirrors, which are prone to downtime.</sub>
 
 <br/>
 
@@ -212,12 +217,6 @@ Motivated fresh BSc graduate in Computer Science &amp; Engineering with strong e
 <br/>
 
 ## GITHUB ACTIVITY
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=jahangirhussen&bg_color=0D1117&color=8B949E&line=58A6FF&point=58A6FF&area=true&area_color=58A6FF&hide_border=true&hide_title=true" width="100%"/>
-</div>
-
-<br/>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/jahangirhussen/jahangirhussen/output/github-contribution-grid-snake-dark.svg" alt="contribution graph" width="100%"/>

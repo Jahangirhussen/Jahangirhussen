@@ -28,6 +28,18 @@ async function safeFetchJson(url, options) {
   return res.json();
 }
 
+// Renders a chart via QuickChart.io (reliable, no free-tier rate limiting like the
+// vercel stat-card mirrors) and saves it as a static PNG. The Action overwrites this
+// file with fresh data on every run, so the image auto-updates without the README
+// text itself ever needing to change.
+async function saveChartImage(filename, chartConfig, bgColor) {
+  const url = `https://quickchart.io/chart?width=600&height=260&backgroundColor=${encodeURIComponent(bgColor)}&c=${encodeURIComponent(JSON.stringify(chartConfig))}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`QuickChart failed for ${filename}: HTTP ${res.status}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  fs.writeFileSync(path.join(BADGES_DIR, filename), buf);
+}
+
 async function updateOrcid() {
   const file = "orcid-works.json";
   try {
@@ -78,11 +90,30 @@ async function updateLeetCode() {
       headers: { "Content-Type": "application/json", Referer: "https://leetcode.com" },
       body: JSON.stringify(body),
     });
-    const all = data.data.matchedUser.submitStatsGlobal.acSubmissionNum.find(s => s.difficulty === "All").count;
+    const nums = data.data.matchedUser.submitStatsGlobal.acSubmissionNum;
+    const all = nums.find(s => s.difficulty === "All").count;
+    const easy = nums.find(s => s.difficulty === "Easy").count;
+    const medium = nums.find(s => s.difficulty === "Medium").count;
+    const hard = nums.find(s => s.difficulty === "Hard").count;
     const rating = data.data.userContestRanking ? Math.round(data.data.userContestRanking.rating) : null;
     writeBadge(file, "LeetCode Solved", all, "FFA116");
     if (rating) writeBadge("leetcode-rating.json", "LeetCode Rating", rating, "FFA116");
-    return { all, rating };
+    await saveChartImage("leetcode-difficulty.png", {
+      type: "horizontalBar",
+      data: {
+        labels: ["Easy", "Medium", "Hard"],
+        datasets: [{ data: [easy, medium, hard], backgroundColor: ["#3fb950", "#d29922", "#f85149"] }],
+      },
+      options: {
+        title: { display: true, text: "LeetCode — Problems Solved by Difficulty", fontColor: "#F0F2F5" },
+        legend: { display: false },
+        scales: {
+          xAxes: [{ ticks: { fontColor: "#8B949E", beginAtZero: true }, gridLines: { color: "#30363D" } }],
+          yAxes: [{ ticks: { fontColor: "#F0F2F5" }, gridLines: { color: "#30363D" } }],
+        },
+      },
+    }, "0D1117");
+    return { all, easy, medium, hard, rating };
   } catch (err) {
     console.error("LeetCode fetch failed:", err.message);
     const prev = readPrevious(file);
@@ -143,6 +174,31 @@ async function updateGitHub() {
     });
     writeBadge(file, "Public Repos", data.public_repos, "0e75b6");
     writeBadge("github-followers.json", "Followers", data.followers, "0e75b6");
+
+    const repos = await safeFetchJson("https://api.github.com/users/jahangirhussen/repos?per_page=100", {
+      headers: { Accept: "application/vnd.github+json" },
+    });
+    const langCount = {};
+    for (const r of repos) {
+      if (r.fork || !r.language) continue;
+      langCount[r.language] = (langCount[r.language] || 0) + 1;
+    }
+    const entries = Object.entries(langCount).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    if (entries.length) {
+      const palette = ["#58A6FF", "#3fb950", "#d29922", "#f85149", "#bc8cff", "#8B949E", "#39c5cf", "#f778ba"];
+      await saveChartImage("github-languages.png", {
+        type: "pie",
+        data: {
+          labels: entries.map(e => e[0]),
+          datasets: [{ data: entries.map(e => e[1]), backgroundColor: palette }],
+        },
+        options: {
+          title: { display: true, text: "Repository Languages", fontColor: "#F0F2F5" },
+          legend: { position: "right", labels: { fontColor: "#8B949E" } },
+        },
+      }, "0D1117");
+    }
+
     return data;
   } catch (err) {
     console.error("GitHub fetch failed:", err.message);
