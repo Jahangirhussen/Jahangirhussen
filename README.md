@@ -112,18 +112,14 @@ Research interests span Machine Learning, Deep Learning, Quantum Machine Learnin
 
 </div>
 
-<sub>CITATION COUNTS BELOW ARE FETCHED LIVE FROM CROSSREF ON EVERY SCHEDULED SYNC — NOT ENTERED BY HAND.</sub>
-
-<br/>
-
-| Paper | DOI | Year | Citations | Venue, Country |
-|---|---|---|---|---|
-| Bangla Suicidal Ideation Detection: Performance & Efficiency Benchmark of Simple and Complex Classifiers on Social Media Data | [10.65136/jati.v10i1.11](https://doi.org/10.65136/jati.v10i1.11) | 2026 | ![c](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/cite-10-65136-jati-v10i1-11.json&style=flat-square&color=black) | Journal of Applied Technology and Innovation, Malaysia |
-| Explainable AI-Driven Bangla News Classification: Comparative Study of ML and DL Approaches | [10.65136/jati.v10i1.325](https://doi.org/10.65136/jati.v10i1.325) | 2026 | ![c](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/cite-10-65136-jati-v10i1-325.json&style=flat-square&color=black) | Journal of Applied Technology and Innovation, Malaysia |
-| Green AI for Sustainable Development in Circular Economies: Building a Low-Carbon, High-Impact Future in Industry 4.0 and 5.0 | [10.4018/979-8-3373-7694-3.ch003](https://doi.org/10.4018/979-8-3373-7694-3.ch003) | 2025 | ![c](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/cite-10-4018-979-8-3373-7694-3-ch003.json&style=flat-square&color=black) | IGI Global Scientific Publishing, United States |
-| Defending Digital Discourse: Developing a Toxic Comment Classifier for Fostering Healthy Online Communities | [10.14445/23488387/ijcse-v11i10p104](https://doi.org/10.14445/23488387/ijcse-v11i10p104) | 2024 | ![c](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/cite-10-14445-23488387-ijcse-v11i10p104.json&style=flat-square&color=black) | Intl. J. Computer Science & Engineering, India |
-| Predicting Heart Disease with Machine Learning: A Comparative Analysis of Models | — (no DOI) | 2025 | — | Sonargaon University Journal, Bangladesh |
-| Bangla Suicidal Intention Dataset (13,288 samples) | [10.5281/zenodo.17528394](https://zenodo.org/doi/10.5281/zenodo.17528394) | 2025 | — | Zenodo Dataset Repository |
+| Paper | DOI | Year | Venue, Country |
+|---|---|---|---|
+| Bangla Suicidal Ideation Detection: Performance & Efficiency Benchmark of Simple and Complex Classifiers on Social Media Data | [10.65136/jati.v10i1.11](https://doi.org/10.65136/jati.v10i1.11) | 2026 | Journal of Applied Technology and Innovation, Malaysia |
+| Explainable AI-Driven Bangla News Classification: Comparative Study of ML and DL Approaches | [10.65136/jati.v10i1.325](https://doi.org/10.65136/jati.v10i1.325) | 2026 | Journal of Applied Technology and Innovation, Malaysia |
+| Green AI for Sustainable Development in Circular Economies: Building a Low-Carbon, High-Impact Future in Industry 4.0 and 5.0 | [10.4018/979-8-3373-7694-3.ch003](https://doi.org/10.4018/979-8-3373-7694-3.ch003) | 2025 | IGI Global Scientific Publishing, United States |
+| Defending Digital Discourse: Developing a Toxic Comment Classifier for Fostering Healthy Online Communities | [10.14445/23488387/ijcse-v11i10p104](https://doi.org/10.14445/23488387/ijcse-v11i10p104) | 2024 | Intl. J. Computer Science & Engineering, India |
+| Predicting Heart Disease with Machine Learning: A Comparative Analysis of Models | [PDF ↗](https://su.edu.bd/web_assets/journal/journal_five/journal77.pdf) (no DOI) | 2025 | Sonargaon University Journal, Bangladesh |
+| Bangla Suicidal Intention Dataset (13,288 samples) | [10.5281/zenodo.17528394](https://zenodo.org/doi/10.5281/zenodo.17528394) | 2025 | Zenodo Dataset Repository |
 
 <br/><br/>
 
