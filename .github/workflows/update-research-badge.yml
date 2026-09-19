@@ -1,0 +1,44 @@
+name: Update Research Badge from ORCID
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch ORCID works count
+        run: |
+          COUNT=$(curl -s "https://pub.orcid.org/v3.0/0009-0007-1024-6644/works" -H "Accept: application/json" | jq '.group | length')
+          echo "count=$COUNT" >> "$GITHUB_ENV"
+
+      - name: Write shields.io endpoint badge
+        run: |
+          mkdir -p .github/badges
+          cat > .github/badges/orcid-works.json <<JSON
+          {
+            "schemaVersion": 1,
+            "label": "ORCID Works",
+            "message": "${{ env.count }}",
+            "color": "a6ce39",
+            "logoColor": "white"
+          }
+          JSON
+
+      - name: Commit badge if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/badges/orcid-works.json
+          git diff --cached --quiet || git commit -m "chore: auto-update ORCID works count [skip ci]"
+          git push

@@ -21,7 +21,29 @@
 
 <img src="https://komarev.com/ghpvc/?username=jahangirhussen&label=Profile%20Views&color=6a11cb&style=flat-square" alt="profile views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/jahangirhussen?label=Followers&style=flat-square&color=0e75b6" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/github-followers.json&style=flat-square" />
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-brightgreen?style=flat-square" />
+&nbsp;
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/last-updated.json&style=flat-square" />
+&nbsp;
+<img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" />
+
+<br/>
+<sub>🔄 Publication, Codeforces, LeetCode & GitHub stats below auto-refresh daily via <a href="https://github.com/Jahangirhussen/Jahangirhussen/actions/workflows/update-stats.yml">GitHub Actions</a> — no hardcoded numbers.</sub>
+
+</div>
+
+<div align="center">
+
+<a href="#-about-me">About</a> ·
+<a href="#️-tech-stack">Tech Stack</a> ·
+<a href="#-github-analytics">Analytics</a> ·
+<a href="#-activity-graph">Activity</a> ·
+<a href="#-featured-research">Research</a> ·
+<a href="#-competitive-programming">Competitive</a> ·
+<a href="#-roadmap">Roadmap</a> ·
+<a href="#-connect-with-me">Connect</a>
 
 </div>
 
@@ -33,16 +55,15 @@
 name:        Jahangir Hussen
 role:        Lead Developer @ Real Deal IT Center
 education:   BSc in CSE, Sonargaon University (CGPA 3.76/4.00)
-focus:       Machine Learning · NLP · Explainable AI (XAI) · Web Development
-publications: 6 peer-reviewed papers & book chapters
+focus:       Software/Web/App/CMS/SaaS Development · ML · DL · QML · XAI
+publications: see live ORCID Works badge below
 based_in:    Dhaka, Bangladesh
 currently:   Delivering production web solutions + researching Bangla NLP
 ```
 
-- 🚀 Leading end-to-end WordPress, WooCommerce, Shopify & custom PHP builds for international clients
-- 🧠 Researching explainable AI, NLP, and low-resource language (Bangla) suicidal-ideation detection
-- 📚 6 publications across journals, book chapters & datasets — [ORCID](https://orcid.org/0009-0007-1024-6644) · [Google Scholar](https://scholar.google.com/citations?user=mdCnjKcAAAAJ&hl=en)
-- 🏆 ICPC Preliminary competitor · LeetCode 1665 · Codeforces 1220 (Pupil) · CodeChef 1585
+- 🚀 Software Development · Web Apps · Mobile-ready App Interfaces · CMS (WordPress/WooCommerce/Shopify) · SaaS builds for international clients
+- 🧠 Machine Learning · Deep Learning · Quantum Machine Learning (QML) · Explainable AI (XAI) · NLP research
+- 📚 Publications, citations & competitive-programming ratings below are live — pulled directly from ORCID, Codeforces & LeetCode
 - 🌐 Full portfolio & CV → **[jahangirhussen.github.io/jahangir-hussen-portfolio](https://jahangirhussen.github.io/jahangir-hussen-portfolio/)**
 
 <br/>
@@ -51,21 +72,44 @@ currently:   Delivering production web solutions + researching Bangla NLP
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![WordPress](https://img.shields.io/badge/-WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![Shopify](https://img.shields.io/badge/-Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
+<img src="https://skillicons.dev/icons?i=py,js,react,php,wordpress,cpp,mysql,mongodb,git,html,css,cs&theme=dark" />
+
+<br/><br/>
+
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/-Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![scikit--learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![XAI](https://img.shields.io/badge/-Explainable%20AI-6a11cb?style=for-the-badge)
+![QML](https://img.shields.io/badge/-Quantum%20ML-8a2be2?style=for-the-badge)
+![Shopify](https://img.shields.io/badge/-Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
+![WooCommerce](https://img.shields.io/badge/-WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)
+![SaaS](https://img.shields.io/badge/-SaaS-0e75b6?style=for-the-badge&logo=cloud&logoColor=white)
 
 </div>
+
+<br/>
+
+<details>
+<summary><b>🧩 Expand: Full skill breakdown</b></summary>
+<br/>
+
+| Category | Skills |
+|---|---|
+| **Languages** | C, C++, Java, Python, JavaScript, HTML, CSS, C#, R |
+| **Software Development** | OOP, System Design, REST APIs, Git-based Workflows |
+| **Web Development** | React.js, HTML5, CSS3, Responsive Design |
+| **App Development** | Mobile-responsive Web Apps, Cross-platform UI |
+| **CMS / SaaS / E-Commerce** | WordPress, WooCommerce, Shopify (Liquid), PHP, SaaS product delivery |
+| **Machine Learning** | scikit-learn, Random Forest, Pandas, NumPy |
+| **Deep Learning** | TensorFlow, Keras, LSTM, BERT variants |
+| **Quantum Machine Learning (QML)** | Exploring quantum-enhanced ML algorithms |
+| **Explainable AI (XAI)** | LIME, model interpretability for high-stakes predictions |
+| **Databases & Tools** | MySQL, MongoDB, Git, VS Code, Jupyter Notebook |
+| **Other** | Pygame, LaTeX, Embedded Systems / Hardware Interfacing |
+
+</details>
 
 <br/>
 
@@ -86,11 +130,75 @@ currently:   Delivering production web solutions + researching Bangla NLP
 
 <br/>
 
+## 📈 Activity Graph
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=jahangirhussen&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+</div>
+
+<br/>
+
 ## 🐍 Contribution Snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jahangirhussen/jahangirhussen/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+<img src="https://raw.githubusercontent.com/jahangirhussen/jahangirhussen/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%"/>
 </div>
+
+<br/>
+
+## 🔬 Featured Research
+
+<div align="center">
+
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/orcid-works.json&style=for-the-badge&logo=orcid&logoColor=white" />
+
+<sub>↑ live count from ORCID's public API — updates automatically when a new work is registered</sub>
+
+<br/><br/>
+
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0007--1024--6644-a6ce39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-1024-6644)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-View_Live_Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=mdCnjKcAAAAJ&hl=en)
+[![Scopus](https://img.shields.io/badge/Scopus-View_Live_Profile-E9711C?style=for-the-badge&logo=elsevier&logoColor=white)](https://www.scopus.com/authid/detail.uri?authorId=60309516800)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-View_Profile-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Jahangir-Hussen)
+
+<sub>Google Scholar, Scopus & ResearchGate have no free public API — badges above link to the live profile page itself rather than an embedded number, so citation/h-index figures are never hardcoded or faked here.</sub>
+
+<br/><br/>
+
+| Publication | Venue | Year |
+|---|---|---|
+| [Bangla Suicidal Ideation Detection: Performance & Efficiency Benchmark](https://doi.org/10.65136/jati.v10i1.11) | J. Applied Technology & Innovation | 2026 |
+| [Explainable AI-Driven Bangla News Classification](https://doi.org/10.65136/jati.v10i1.325) | J. Applied Technology & Innovation | 2026 |
+| [Green AI for Sustainable Development in Circular Economies](https://doi.org/10.4018/979-8-3373-7694-3.ch003) | Book Chapter — IGI Global | 2025 |
+| [Predicting Heart Disease with Machine Learning](https://su.edu.bd/web_assets/journal/journal_five/journal77.pdf) | Sonargaon University Journal | 2025 |
+| [Defending Digital Discourse: Toxic Comment Classifier](https://doi.org/10.14445/23488387/ijcse-v11i10p104) | Intl. J. Computer Science & Engineering | 2024 |
+| [Bangla Suicidal Intention Dataset (13,288 samples)](https://zenodo.org/doi/10.5281/zenodo.17528394) | Zenodo Dataset | 2025 |
+
+</div>
+
+<div align="center">
+
+[![DOI](https://img.shields.io/badge/DOI-10.65136%2Fjati.v10i1.11-blue?style=flat-square)](https://doi.org/10.65136/jati.v10i1.11)
+[![DOI](https://img.shields.io/badge/DOI-10.4018%2F979--8--3373--7694--3.ch003-blue?style=flat-square)](https://doi.org/10.4018/979-8-3373-7694-3.ch003)
+[![Zenodo](https://img.shields.io/badge/Dataset-Zenodo-1682D4?style=flat-square&logo=zenodo&logoColor=white)](https://zenodo.org/doi/10.5281/zenodo.17528394)
+
+</div>
+
+<br/>
+
+## 🗺️ Roadmap
+
+```mermaid
+timeline
+    title Research & Career Trajectory
+    2022 : BSc in CSE begins — Sonargaon University
+    2024 : First publication — Toxic Comment Classifier
+    2024–2025 : Undergraduate thesis — Bangla Suicidal Ideation Detection
+    2025 : Lead Developer — Real Deal IT Center
+    2025 : Bangla Suicidal Intention Dataset released (Zenodo)
+    2026 : BSc completed · 4 more publications · portfolio launch
+    Next : Deep Learning · Data Privacy in AI · applied NLP research
+```
 
 <br/>
 
@@ -98,10 +206,15 @@ currently:   Delivering production web solutions + researching Bangla NLP
 
 <div align="center">
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-1665-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/jahangirhussen/)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1220%20(Pupil)-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/jahangirhussen5011)
-[![CodeChef](https://img.shields.io/badge/CodeChef-1585-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/jahangirhussen)
+<a href="https://leetcode.com/u/jahangirhussen/"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/leetcode-solved.json&style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+<a href="https://leetcode.com/u/jahangirhussen/"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/leetcode-rating.json&style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+<a href="https://codeforces.com/profile/jahangirhussen5011"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/codeforces-rating.json&style=for-the-badge&logo=codeforces&logoColor=white" /></a>
+<a href="https://codeforces.com/profile/jahangirhussen5011"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Jahangirhussen/Jahangirhussen/main/.github/badges/codeforces-max.json&style=for-the-badge&logo=codeforces&logoColor=white" /></a>
+[![CodeChef](https://img.shields.io/badge/CodeChef-View_Live_Profile-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/jahangirhussen)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Projects-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/jahangirhussen)
+
+<br/><br/>
+<img src="https://leetcard.jacoblin.cool/jahangirhussen?theme=dark&font=baloo2&extension=activity" />
 
 </div>
 
@@ -117,6 +230,24 @@ currently:   Delivering production web solutions + researching Bangla NLP
 <a href="https://www.kaggle.com/jahangirhussen" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="kaggle" height="35" width="40" /></a>
 <a href="https://orcid.org/0009-0007-1024-6644" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" alt="orcid" height="35" width="40" /></a>
 
+</div>
+
+<br/>
+
+<details>
+<summary><b>💡 Currently working on</b></summary>
+<br/>
+
+- 🔭 Extending Bangla NLP research into transformer-based explainability (XAI)
+- 🌱 Deepening WordPress/Shopify freelance delivery pipeline at Real Deal IT Center
+- 📊 Exploring data-privacy-preserving techniques for low-resource-language ML
+
+</details>
+
+<br/>
+
+<div align="center">
+<sub>Built with ☕ and a lot of <code>git push</code> — thanks for stopping by!</sub>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:0e75b6&height=100&section=footer" width="100%"/>
